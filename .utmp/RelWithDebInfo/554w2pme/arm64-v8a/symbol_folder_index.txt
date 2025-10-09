@@ -1,0 +1,1 @@
+C:\Users\tsaba\LabTemplate01\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\554w2pme\obj\arm64-v8a

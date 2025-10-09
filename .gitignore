@@ -1,0 +1,21 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+
+# Unity caches
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+UserSettings/
+
+# Build outputs
+[Bb]uild/
+[Bb]uilds?/
+*.apk
+*.aab
+*.ipa
+
+# Avoid future android signature keys if will be
+*.keystore
+*.jks
