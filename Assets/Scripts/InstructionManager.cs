@@ -87,6 +87,7 @@ public class InstructionManager : MonoBehaviour
         {
             videoPlayer.clip = instr.video;
             videoPlayer.gameObject.SetActive(true);
+            videoPlayer.isLooping = true; // הוסף את זה – מפעיל לופ
             videoPlayer.Play();
             // הוסף: קשר RawImage לפלט הווידאו
             if (imageUI && videoPlayer.targetTexture != null)

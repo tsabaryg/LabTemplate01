@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 368, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162508876
 MonoBehaviour:
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: 40
-  m_FlexibleWidth: -1
+  m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!1 &240455254
@@ -306,6 +306,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1395062626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &282312851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 282312852}
+  m_Layer: 0
+  m_Name: "08_\u05E1\u05D5\u05E3 \u05D8\u05D5\u05D1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &282312852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282312851}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &293618067
 GameObject:
@@ -382,6 +413,7 @@ GameObject:
   - component: {fileID: 297180538}
   - component: {fileID: 297180537}
   - component: {fileID: 297180539}
+  - component: {fileID: 297180540}
   m_Layer: 0
   m_Name: VisualInstruction
   m_TagString: Untagged
@@ -408,7 +440,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 323.33618, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297180537
 MonoBehaviour:
@@ -461,10 +493,24 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: 1
+  m_PreferredHeight: 200
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 3
   m_LayoutPriority: 1
+--- !u!114 &297180540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297180535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.AspectRatioFitter
+  m_AspectMode: 2
+  m_AspectRatio: 1.1910349
 --- !u!1 &342277518 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -1411,6 +1457,37 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!1 &1518279709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518279710}
+  m_Layer: 0
+  m_Name: "01_\u05DE\u05E2\u05E8\u05DA \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1518279710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518279709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1709884502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1862,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 368, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961379191
 MonoBehaviour:
@@ -1898,7 +1975,7 @@ MonoBehaviour:
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: 30
-  m_FlexibleWidth: -1
+  m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!1 &2022434217
@@ -1939,7 +2016,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 368, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022434219
 MonoBehaviour:
@@ -2052,7 +2129,7 @@ MonoBehaviour:
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: 30
-  m_FlexibleWidth: -1
+  m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!114 &2056944487 stripped
@@ -4364,33 +4441,57 @@ PrefabInstance:
       propertyPath: m_ActiveFontFeatures.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2204182722639494443, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204182722639494443, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_ChildScaleWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204182722639494443, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_ChildScaleHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204182722639494443, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204182722639494443, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_ChildForceExpandWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3600243374006692485, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
+      propertyPath: m_MinHeight
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3600243374006692485, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_FlexibleHeight
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 1077.13
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 184
       objectReference: {fileID: 0}
     - target: {fileID: 5201990079733648387, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -562.565
       objectReference: {fileID: 0}
     - target: {fileID: 5768282129594193635, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4430,7 +4531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6505967584830306528, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 368
       objectReference: {fileID: 0}
     - target: {fileID: 6505967584830306528, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4480,7 +4581,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextualInstruction
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5373583629308888446, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
     m_RemovedGameObjects:
     - {fileID: 852718829105299637, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
     - {fileID: 3498124383376720670, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
@@ -4493,10 +4595,10 @@ PrefabInstance:
       addedObject: {fileID: 162508875}
     - targetCorrespondingSourceObject: {fileID: 7954986120357873038, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 297180536}
+      addedObject: {fileID: 1961379190}
     - targetCorrespondingSourceObject: {fileID: 7954986120357873038, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1961379190}
+      addedObject: {fileID: 297180536}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6398810249023174635, guid: 26f0c10d2aef97e48b61c3aa9f73e76d, type: 3}
       insertIndex: -1
@@ -4531,111 +4633,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstructionManager
   instructions:
-  - text: "\u05E9\u05DC\u05D1 1: \u05D4\u05D3\u05DC\u05E7 \u05D0\u05EA \u05D4\u05DE\u05DB\u05E9\u05D9\u05E8\n\u05D0\u05E0\u05D9
-      \u05E2\u05D5\u05E9\u05D4 \u05DB\u05D0\u05DF \u05D8\u05E7\u05E1\u05D8 \u05D0\u05E8\u05D5\u05DA
-      \u05DB\u05D3\u05D9 \u05E9\u05E0\u05E8\u05D0\u05D4 \u05D9\u05DB\u05D5\u05DC\u05D5\u05EA
-      \u05D2\u05DC\u05D9\u05DC\u05D4\n\u05D0\u05D1\u05DC \u05D1\u05D0\u05D5\u05E4\u05DF
-      \u05DB\u05DC\u05DC\u05D9 \u05D4\u05D4\u05E0\u05D7\u05D9\u05D5\u05EA \u05E6\u05E8\u05D9\u05DB\u05D5\u05EA
-      \u05DC\u05D4\u05D9\u05D5\u05EA \u05E7\u05E6\u05E8\u05D5\u05EA \u05D5\u05DE\u05D5\u05D1\u05E0\u05D5\u05EA\n\u05D4\u05E2\u05D5\u05DC\u05DD
-      - \u05D5\u05D9\u05E9\u05E8\u05D0\u05DC \u05D1\u05D9\u05D9\u05D7\u05D5\u05D3
-      - \u05DE\u05E6\u05E4\u05D9\u05DD \u05D1\u05E7\u05D5\u05E6\u05E8 \u05E8\u05D5\u05D7
-      \u05DC\u05DE\u05E9\u05DE\u05E2 \u05D4\u05DE\u05D5\u05E2\u05DE\u05D3\u05D9\u05DD
-      \u05DC\u05E4\u05E8\u05E1 \u05D4\u05E0\u05D5\u05D1\u05DC \u05DC\u05E9\u05DC\u05D5\u05DD.
-      \u05D1\u05E2\u05D5\u05D3 \u05E8\u05D0\u05E9 \u05D4\u05DE\u05DE\u05E9\u05DC\u05D4
-      \u05E7\u05E8\u05D0 \u05D7\u05D5\u05D6\u05E8 \u05D5\u05E0\u05E9\u05E0\u05D4
-      \u05D5\u05D0\u05E3 \u05D4\u05DE\u05DC\u05D9\u05E5 \u05E9\u05D9\u05D5\u05E2\u05E0\u05E7
-      \u05D4\u05E4\u05E8\u05E1 \u05DC\u05E0\u05E9\u05D9\u05D0 \u05D4\u05D0\u05DE\u05E8\u05D9\u05E7\u05E0\u05D9,
-      \u05D4\u05D4\u05D9\u05DE\u05D5\u05E8\u05D9\u05DD \u05D3\u05D5\u05D5\u05E7\u05D0
-      \u05E0\u05D2\u05D3\u05D5\n\u05E2\u05D3\u05EA \u05E4\u05E8\u05E1 \u05E0\u05D5\u05D1\u05DC
-      \u05DC\u05E9\u05DC\u05D5\u05DD \u05EA\u05DB\u05E8\u05D9\u05D6 \u05D4\u05D9\u05D5\u05DD
-      (\u05E9\u05D9\u05E9\u05D9) \u05D1\u05E9\u05E2\u05D5\u05EA \u05D4\u05E6\u05D4\u05E8\u05D9\u05D9\u05DD
-      \u05E2\u05DC \u05D4\u05D6\u05D5\u05DB\u05D4 \u05D1\u05E4\u05E8\u05E1 \u05D4\u05D9\u05D5\u05E7\u05E8\u05EA\u05D9,
-      \u05DB\u05E9\u05DB\u05DC \u05D4\u05E2\u05D5\u05DC\u05DD \u05DE\u05DE\u05EA\u05D9\u05DF
-      \u05D1\u05D3\u05E8\u05D9\u05DB\u05D5\u05EA \u05DB\u05D3\u05D9 \u05DC\u05E9\u05DE\u05D5\u05E2
-      \u05D0\u05DD \u05D4\u05D7\u05EA\u05DF \u05D4\u05D8\u05E8\u05D9 \u05D9\u05D4\u05D9\u05D4
-      \u05E0\u05E9\u05D9\u05D0 \u05D0\u05E8\u05E6\u05D5\u05EA \u05D4\u05D1\u05E8\u05D9\u05EA
-      \u05D3\u05D5\u05E0\u05DC\u05D3 \u05D8\u05E8\u05D0\u05DE\u05E4. \u05E2\u05DD
-      \u05D6\u05D0\u05EA, \u05DC\u05E4\u05D9 \u05E8\u05D5\u05D1 \u05D4\u05D4\u05E2\u05E8\u05DB\u05D5\u05EA
-      \u05D5\u05E1\u05D5\u05DB\u05E0\u05D5\u05D9\u05D5\u05EA \u05D4\u05D4\u05D9\u05DE\u05D5\u05E8\u05D9\u05DD,
-      \u05D4\u05E4\u05E8\u05E1 \u05D9\u05D5\u05E2\u05E0\u05E7 \u05DC\u05D6\u05D5\u05DB\u05D4,
-      \u05D0\u05D5 \u05D6\u05D5\u05DB\u05D9\u05DD \u05D0\u05D7\u05E8\u05D9\u05DD.\n\r\n\r\n\u05D8\u05E8\u05D0\u05DE\u05E4
-      \u05E2\u05E1\u05E7 \u05D1\u05E0\u05D5\u05E9\u05D0 \u05D1\u05D0\u05D5\u05E4\u05DF
-      \u05D0\u05D5\u05D1\u05E1\u05E1\u05D9\u05D1\u05D9 \u05DE\u05D0\u05D6 \u05EA\u05D7\u05D9\u05DC\u05EA
-      \u05D4\u05E7\u05D3\u05E0\u05E6\u05D9\u05D4 \u05D4\u05E9\u05E0\u05D9\u05D9\u05D4
-      \u05E9\u05DC\u05D5 \u05D1\u05D9\u05E0\u05D5\u05D0\u05E8, \u05D0\u05DA \u05D7\u05DC\u05D5\u05DE\u05D5
-      \u05DC\u05D4\u05E6\u05D8\u05E8\u05E3 \u05DC\u05E8\u05E9\u05D9\u05DE\u05D4 \u05D4\u05DE\u05DB\u05D5\u05D1\u05D3\u05EA
-      \u05E9\u05DC \u05D6\u05D5\u05DB\u05D9 \u05E4\u05E8\u05E1 \u05E0\u05D5\u05D1\u05DC
-      \u05DC\u05E9\u05DC\u05D5\u05DD \u05D4\u05D5\u05D0 \u05D1\u05DF \u05E9\u05E0\u05D9\u05DD
-      \u05E8\u05D1\u05D5\u05EA.\r\n\r\n\u05D5\u05E2\u05D3\u05EA \u05D4\u05E4\u05E8\u05E1
-      \u05D0\u05DE\u05E8\u05D4 \u05DB\u05D9 \u05D4\u05E9\u05E0\u05D4 \u05DE\u05D5\u05E2\u05DE\u05D3\u05D9\u05DD
-      338 \u05DE\u05D5\u05E2\u05DE\u05D3\u05D9\u05DD, \u05DE\u05EA\u05D5\u05DB\u05DD
-      244 \u05D9\u05D7\u05D9\u05D3\u05D9\u05DD \u05D5-94 \u05D0\u05E8\u05D2\u05D5\u05E0\u05D9\u05DD,
-      \u05D1\u05E9\u05E0\u05D4 \u05E9\u05E2\u05D1\u05E8\u05D4 \u05D4\u05D9\u05D5
-      286 \u05DE\u05D5\u05E2\u05DE\u05D3\u05D9\u05DD.\r\n\r\n\u05E1\u05D5\u05DB\u05E0\u05D5\u05D9\u05D5\u05EA
-      \u05D4\u05D4\u05D9\u05DE\u05D5\u05E8\u05D9\u05DD \u05DE\u05E6\u05D9\u05D2\u05D5\u05EA
-      \u05D0\u05EA \u05E0\u05E9\u05D9\u05D0 \u05D0\u05D5\u05E7\u05E8\u05D0\u05D9\u05E0\u05D4
-      \u05D5\u05D5\u05DC\u05D5\u05D3\u05D9\u05DE\u05D9\u05E8 \u05D6\u05DC\u05E0\u05E1\u05E7\u05D9
-      \u05DB\u05D0\u05D7\u05D3 \u05D4\u05DE\u05D5\u05E2\u05DE\u05D3\u05D9\u05DD \u05D4\u05DE\u05D5\u05D1\u05D9\u05DC\u05D9\u05DD
-      \u05D4\u05E4\u05D5\u05D8\u05E0\u05E6\u05D9\u05D0\u05DC\u05D9\u05D9\u05DD, \u05D9\u05D7\u05D3
-      \u05E2\u05DD \u05D9\u05D5\u05DC\u05D9\u05D4 \u05E0\u05D1\u05DC\u05E0\u05D9\u05D4,
-      \u05D0\u05DC\u05DE\u05E0\u05EA\u05D5 \u05E9\u05DC \u05DE\u05E0\u05D4\u05D9\u05D2
-      \u05D4\u05D0\u05D5\u05E4\u05D5\u05D6\u05D9\u05E6\u05D9\u05D4 \u05D4\u05E8\u05D5\u05E1\u05D9
-      \u05D0\u05DC\u05DB\u05E1\u05D9\u05D9 \u05E0\u05D1\u05DC\u05E0\u05D9, \u05E9\u05DC\u05E4\u05D9
-      \u05D4\u05D7\u05E9\u05D3 \u05D4\u05D5\u05E8\u05E2\u05DC \u05DC\u05DE\u05D5\u05D5\u05EA
-      \u05D1\u05DB\u05DC\u05D0 \u05D4\u05E8\u05D5\u05E1\u05D9.\n\u05DD \u05DC\u05D0\u05E8\u05D2\u05D5\u05E0\u05D9\u05DD
-      \u05D4\u05D5\u05DE\u05E0\u05D9\u05D8\u05E8\u05D9\u05D9\u05DD \u05DB\u05DE\u05D5
-      \u05D7\u05D3\u05E8\u05D9 \u05D4\u05D7\u05D9\u05E8\u05D5\u05DD \u05E9\u05DC
-      \u05E1\u05D5\u05D3\u05D0\u05DF \u05D5\u05E8\u05D5\u05E4\u05D0\u05D9\u05DD \u05DC\u05DC\u05D0
-      \u05D2\u05D1\u05D5\u05DC\u05D5\u05EA \u05D9\u05E9 \u05E1\u05D9\u05DB\u05D5\u05D9\u05D9\u05DD
-      \u05D2\u05D1\u05D5\u05D4\u05D9\u05DD, \u05DC\u05E4\u05D9 \u05D4\u05D4\u05E2\u05E8\u05DB\u05D5\u05EA.
-      \u05D4\u05D5\u05D5\u05E2\u05D3\u05D4 \u05E2\u05E9\u05D5\u05D9\u05D4 \u05DC\u05D4\u05E2\u05E0\u05D9\u05E7
-      \u05D0\u05EA \u05D4\u05E4\u05E8\u05E1 \u05DC\u05DE\u05D5\u05E1\u05D3\u05D5\u05EA
-      \u05D4\u05D0\u05D5\"\u05DD \u05DB\u05DE\u05D5 \u05D1\u05D9\u05EA \u05D4\u05D3\u05D9\u05DF
-      \u05D4\u05D1\u05D9\u05E0\u05DC\u05D0\u05D5\u05DE\u05D9 \u05DC\u05E6\u05D3\u05E7,
-      \u05D0\u05D5 \u05D4\u05D0\u05D5\"\u05DD \u05D1\u05DB\u05DC\u05DC\u05D5\u05EA\u05D5,
-      \u05E9\u05DE\u05E6\u05D9\u05D9\u05DF \u05D4\u05E9\u05E0\u05D4 80 \u05E9\u05E0\u05D4
-      \u05DC\u05D4\u05D9\u05D5\u05D5\u05E1\u05D3\u05D5.\r\n\r\n\u05D4\u05D9\u05D0
-      \u05D9\u05DB\u05D5\u05DC\u05D4 \u05D2\u05DD \u05DC\u05EA\u05D2\u05DE\u05DC
-      \u05D0\u05EA \u05D4\u05D5\u05D5\u05E2\u05D3\u05D4 \u05DC\u05D4\u05D2\u05E0\u05D4
-      \u05E2\u05DC \u05E2\u05D9\u05EA\u05D5\u05E0\u05D0\u05D9\u05DD \u05D0\u05D5
-      \u05E2\u05D9\u05EA\u05D5\u05E0\u05D0\u05D9\u05DD \u05DC\u05DC\u05D0 \u05D2\u05D1\u05D5\u05DC\u05D5\u05EA,
-      \u05E9\u05EA\u05E6\u05D9\u05D9\u05DF \u05E9\u05E0\u05D4 \u05E9\u05D1\u05D4
-      \u05E0\u05D4\u05E8\u05D2\u05D5 \u05D9\u05D5\u05EA\u05E8 \u05E2\u05D5\u05D1\u05D3\u05D9
-      \u05EA\u05E7\u05E9\u05D5\u05E8\u05EA \u05DE\u05D0\u05D9 \u05E4\u05E2\u05DD,
-      \u05D1\u05E2\u05D9\u05E7\u05E8 \u05D1\u05E2\u05D6\u05D4.\r\n\r\n\"\u05D0\u05D9\u05DC\u05D5
-      \u05D4\u05D9\u05D5 \u05E7\u05D5\u05E8\u05D0\u05D9\u05DD \u05DC\u05D9 \u05D0\u05D5\u05D1\u05DE\u05D4,
-      \u05D4\u05D9\u05D5 \u05E0\u05D5\u05EA\u05E0\u05D9\u05DD \u05DC\u05D9 \u05E4\u05E8\u05E1
-      \u05E0\u05D5\u05D1\u05DC \u05D1\u05EA\u05D5\u05DA \u05E2\u05E9\u05E8 \u05E9\u05E0\u05D9\u05D5\u05EA\",
-      \u05D4\u05EA\u05E8\u05E2\u05DD \u05D8\u05E8\u05D0\u05DE\u05E4 \u05D1\u05DE\u05D4\u05DC\u05DA
-      \u05D4\u05E7\u05DE\u05E4\u05D9\u05D9\u05DF \u05D4\u05E0\u05E9\u05D9\u05D0\u05D5\u05EA\u05D9
-      \u05D1\u05E9\u05E0\u05D4 \u05E9\u05E2\u05D1\u05E8\u05D4, \u05DB\u05E9\u05D4\u05D6\u05DB\u05D9\u05E8
-      \u05D0\u05EA \u05D4\u05D6\u05DB\u05D9\u05D9\u05D4 \u05E9\u05DC \u05E9\u05E0\u05D5\u05D0
-      \u05E0\u05E4\u05E9\u05D5, \u05D4\u05E0\u05E9\u05D9\u05D0 \u05DC\u05E9\u05E2\u05D1\u05E8
-      \u05D1\u05E8\u05E7 \u05D0\u05D5\u05D1\u05DE\u05D4. \u05D0\u05D5\u05D1\u05DE\u05D4
-      \u05E7\u05D9\u05D1\u05DC \u05D0\u05EA \u05D4\u05E4\u05E8\u05E1 \u05D1-2009,
-      \u05D7\u05D5\u05D3\u05E9\u05D9\u05DD \u05E1\u05E4\u05D5\u05E8\u05D9\u05DD \u05D1\u05DC\u05D1\u05D3
-      \u05D0\u05D7\u05E8\u05D9 \u05E9\u05E0\u05DB\u05E0\u05E1 \u05DC\u05EA\u05E4\u05E7\u05D9\u05D3,
-      \u05D6\u05DB\u05D9\u05D9\u05D4 \u05E9\u05D4\u05E4\u05DB\u05D4 \u05D1\u05DE\u05E8\u05D5\u05E6\u05EA
-      \u05D4\u05E9\u05E0\u05D9\u05DD \u05DC\u05E9\u05E0\u05D5\u05D9\u05D4 \u05D1\u05DE\u05D7\u05DC\u05D5\u05E7\u05EA
-      \u05D5\u05E8\u05D5\u05D5\u05D9\u05D9\u05EA \u05D1\u05D9\u05E7\u05D5\u05E8\u05EA.\r\n\r\n\u05D4\u05E0\u05E9\u05D9\u05D0
-      \u05D4\u05E8\u05E4\u05D5\u05D1\u05DC\u05D9\u05E7\u05E0\u05D9 \u05D8\u05D5\u05E2\u05DF
-      \u05E9\u05D4\u05D5\u05D0 \"\u05E1\u05D9\u05D9\u05DD \u05E9\u05DE\u05D5\u05E0\u05D4
-      \u05E1\u05DB\u05E1\u05D5\u05DB\u05D9\u05DD \u05D2\u05D3\u05D5\u05DC\u05D9\u05DD
-      \u05D0\u05D5 \u05DE\u05DC\u05D7\u05DE\u05D5\u05EA\" - \u05D1\u05D4\u05DF \u05D4\u05E2\u05D9\u05DE\u05D5\u05EA
-      \u05D1\u05D9\u05DF \u05D9\u05E9\u05E8\u05D0\u05DC \u05DC\u05D0\u05D9\u05E8\u05D0\u05DF
-      \u05D5\u05D4\u05DE\u05DC\u05D7\u05DE\u05D4 \u05D1\u05E2\u05D6\u05D4 - \u05D0\u05DD
-      \u05DB\u05D9 \u05D6\u05D4\u05D5 \u05E0\u05EA\u05D5\u05DF \u05D4\u05E8\u05D7\u05D5\u05E7
-      \u05DE\u05D4\u05DE\u05E6\u05D9\u05D0\u05D5\u05EA."
-    image: {fileID: 21300000, guid: 836826b93d134cb4ebfacfd809b2800c, type: 3}
+  - text: "\u05E9\u05DC\u05D1 1: \u05D5\u05D3\u05D0\u05D5 \u05E9\u05DB\u05DC \u05E8\u05DB\u05D9\u05D1\u05D9
+      \u05DE\u05E2\u05E8\u05DB\u05EA \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9 \u05E0\u05DE\u05E6\u05D0\u05D9\u05DD
+      \u05E2\u05DC \u05D4\u05E9\u05D5\u05DC\u05D7\u05DF \u05D1\u05D4\u05EA\u05D0\u05DD
+      \u05DC\u05EA\u05DE\u05D5\u05E0\u05D4 \u05DC\u05DE\u05D8\u05D4"
+    image: {fileID: 21300000, guid: 879515dfe990e7848a4779fc4fffcf7b, type: 3}
     video: {fileID: 0}
     audio: {fileID: 0}
-  - text: "\u05E9\u05DC\u05D1 2: \u05D4\u05DB\u05D4 \u05D0\u05EA \u05D7\u05D1\u05E8\u05DA"
+  - text: "\u05E9\u05DC\u05D1 2: \u05E9\u05E7\u05DC\u05D5 \u05D0\u05EA \u05E8\u05DB\u05D9\u05D1\u05D9
+      \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9 \u05DB\u05DE\u05D5\u05D3\u05D2\u05DD \u05D1\u05E1\u05E8\u05D8\u05D5\u05DF.
+      \u05DE\u05E9\u05E7\u05DC \u05DB\u05D5\u05DC\u05DC \u05E6\u05E8\u05D9\u05DA
+      \u05DC\u05E6\u05D0\u05EA \u05DB 056 \u05D2\u05E8\u05DD."
     image: {fileID: 0}
-    video: {fileID: 32900000, guid: cd2e0f0d4ed38134b8a30ec4ed10e386, type: 3}
+    video: {fileID: 32900000, guid: 56aebfe0c31d4e8478f346d137b17925, type: 3}
     audio: {fileID: 0}
-  - text: "\u05E9\u05DC\u05D1 3: \u05E6\u05D0 \u05DE\u05D4\u05DB\u05D9\u05EA\u05D4
-      \u05D5\u05DE\u05D4\u05EA\u05D5\u05DB\u05E0\u05D9\u05EA"
+  - text: "\u05E9\u05DC\u05D1 3: \u05D4\u05E9\u05D7\u05D9\u05DC\u05D5 \u05D0\u05EA
+      \u05D7\u05D5\u05D8 \u05D4\u05EA\u05DC\u05D9\u05D4 \u05DC\u05E7\u05E8\u05D5\u05E0\u05D9\u05EA
+      \u05D5\u05DE\u05E7\u05DE\u05D5 \u05D0\u05D5\u05EA\u05D5 \u05E2\u05DC \u05D4\u05D2\u05DC\u05D2\u05DC\u05EA
+      \u05D5\u05D0\u05EA \u05D4\u05E7\u05E8\u05D5\u05E0\u05D9\u05EA \u05E2\u05DC
+      \u05D4\u05DE\u05E1\u05D9\u05DC\u05D4."
     image: {fileID: 21300000, guid: c53681f05b42516429fa0c81b9fa3656, type: 3}
+    video: {fileID: 32900000, guid: db8b299fc0696ce4096ec8531bca1fae, type: 3}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
+  - text: "\u05E9\u05DC\u05D1 4: \u05D4\u05DB\u05D9\u05E0\u05D5 \u05D0\u05EA \u05DE\u05E2\u05E8\u05DB\u05EA
+      \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9 \u05DC\u05E7\u05E8\u05D0\u05EA \u05D1\u05D9\u05E6\u05D5\u05E2
+      \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9"
+    image: {fileID: 21300000, guid: c53681f05b42516429fa0c81b9fa3656, type: 3}
+    video: {fileID: 32900000, guid: b90842822740d6347921480372ea0f14, type: 3}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
+  - text: "\u05E9\u05DC\u05D1 5: \u05E7\u05D7\u05D5 \u05E0\u05E9\u05D9\u05DE\u05D4
+      \u05D5\u05EA\u05E2\u05D1\u05E8\u05D5 \u05DC\u05E9\u05DC\u05D1 \u05D4\u05D1\u05D0"
+    image: {fileID: 21300000, guid: c53681f05b42516429fa0c81b9fa3656, type: 3}
+    video: {fileID: 0}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
+  - text: "\u05E9\u05DC\u05D1 6: \u05D1\u05E6\u05E2\u05D5 \u05D0\u05EA \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9
+      \u05D1\u05D4\u05EA\u05D0\u05DD \u05DC\u05E1\u05E8\u05D8\u05D5\u05DF \u05D4\u05DE\u05E6\u05D5\u05E8\u05E3"
+    image: {fileID: 21300000, guid: c53681f05b42516429fa0c81b9fa3656, type: 3}
+    video: {fileID: 32900000, guid: 8b1b2d174b841ea43b9680425067f306, type: 3}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
+  - text: "\u05E9\u05DC\u05D1 7: \u05D7\u05E9\u05D1\u05D5 \u05D0\u05EA \u05D4\u05EA\u05D0\u05D5\u05E6\u05D5\u05EA
+      \u05D1\u05EA\u05D5\u05DB\u05E0\u05D4. \u05E6\u05DC\u05DE\u05D5 \u05DB\u05DC
+      \u05D0\u05D7\u05D3 \u05DE\u05D4\u05D2\u05E8\u05E4\u05D9\u05DD \u05D1\u05D9\u05D7\u05D3
+      \u05E2\u05DD \u05E2\u05E8\u05DB\u05D9 \u05D4\u05E9\u05D9\u05E4\u05D5\u05E2
+      \u05D5\u05E8\u05D9\u05E9\u05DE\u05D5 \u05D0\u05EA \u05E2\u05E8\u05DB\u05D9
+      \u05D4\u05EA\u05D0\u05D5\u05E6\u05D5\u05EA."
+    image: {fileID: 21300000, guid: c53681f05b42516429fa0c81b9fa3656, type: 3}
+    video: {fileID: 32900000, guid: 53d7e1726c436c8479b55a56ffca9f84, type: 3}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
+  - text: "\u05E1\u05D5\u05E3 \u05D8\u05D5\u05D1 \u05D4\u05DB\u05DC \u05D8\u05D5\u05D1.
+      \u05E1\u05D9\u05D9\u05DE\u05EA\u05DD \u05D5\u05D0\u05EA\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD
+      \u05DC\u05E2\u05D9\u05D1\u05D5\u05D3 \u05D4\u05EA\u05D5\u05E6\u05D0\u05D5\u05EA
+      \u05D5\u05E8\u05D9\u05E9\u05D5\u05DD \u05D3\u05D5\u05D7 \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9"
+    image: {fileID: 21300000, guid: c0ba56fc82980af4cb4beec858aa0e92, type: 3}
     video: {fileID: 0}
     audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
   textUI: {fileID: 7417680185985144848}
@@ -4714,3 +4763,5 @@ SceneRoots:
   - {fileID: 1395062624}
   - {fileID: 293618070}
   - {fileID: 18475339846604766}
+  - {fileID: 1518279710}
+  - {fileID: 282312852}
