@@ -1075,10 +1075,10 @@ RectTransform:
   - {fileID: 2081568349}
   m_Father: {fileID: 449385518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 184, y: -305.8125}
-  m_SizeDelta: {x: 0, y: 278.97498}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 184, y: 0}
+  m_SizeDelta: {x: 332.26892, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297180537
 MonoBehaviour:
@@ -5745,6 +5745,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstructionManager
   instructions:
+  - text: "\u05D4\u05E7\u05D3\u05DE\u05D4: \u05DC\u05E4\u05E0\u05D9 \u05D4\u05DB\u05DC
+      \u05D0\u05D9\u05DA \u05E9\u05D5\u05DC\u05D8\u05D9\u05DD \u05D1\u05DC\u05D5\u05D7"
+    image: {fileID: 0}
+    video: {fileID: 32900000, guid: acf3a6d2bb978394d85948107245ec7d, type: 3}
+    audio: {fileID: 8300000, guid: d4ac7d681358bb14d9b344f2a9f192c4, type: 3}
   - text: "\u05E9\u05DC\u05D1 1: \u05D5\u05D3\u05D0\u05D5 \u05E9\u05DB\u05DC \u05E8\u05DB\u05D9\u05D1\u05D9
       \u05DE\u05E2\u05E8\u05DB\u05EA \u05D4\u05E0\u05D9\u05E1\u05D5\u05D9 \u05E0\u05DE\u05E6\u05D0\u05D9\u05DD
       \u05E2\u05DC \u05D4\u05E9\u05D5\u05DC\u05D7\u05DF \u05D1\u05D4\u05EA\u05D0\u05DD

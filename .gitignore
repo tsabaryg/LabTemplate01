@@ -8,8 +8,9 @@
 [Oo]bj/
 [Ll]ogs/
 UserSettings/
+# Ignore all movies
 [Aa]ssets/Resources/0*
-
+[Ll]abTemplate01_BackUpThisFolder_ButDontShipItWithYourGame/
 # Build outputs
 [Bb]uild/
 [Bb]uilds?/
