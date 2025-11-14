@@ -19,15 +19,23 @@ public class InstructionManager : MonoBehaviour
     public Instruction[] instructions;  // גרור 3+ מקבצים ב-Inspector
 
     [Header("רכיבי UI")]
+    // The lines below create empty boxes in the inspector of InstructionPanel under instruction manager script.
+    // For each line added here, one must remember to drag and drop the relevant feature from the
+    // hirarchy of InstructionPanel (this is the remarks // גרור xxxx)
+    // Example: after I added the line "public Button nextButton" I grabed NextButton from the hirarchy the the new
+    // empty box created in instruction manager script
     public TextMeshProUGUI textUI;  // גרור TextualInstruction
     public RawImage imageUI;  // גרור VisualInstruction
     public VideoPlayer videoPlayer;  // גרור Video Player
     public AudioSource audioSource;  // גרור VocalInstruction
     public Button nextButton;  // גרור NextButton
     public Button prevButton;  // גרור PrevButton
-
+    public Button PlayPauseButton;  // גרור PlayPauseButton
+    public Button ForwardButton;  // גרור SkipForwardButton
+    public Button BackwardButton;  // גרור SkipBackwardButtonButton
+    public float skipTime = 15.0f; // קפיצה של 15 שניות, אפשר לשנות באינספקטור
+    
     private int currentIndex = 0;
-
     void Start()
     {
         if (instructions.Length == 0) return;  // אם אין מקבצים, אל תמשיך
@@ -35,7 +43,9 @@ public class InstructionManager : MonoBehaviour
         // קשר onClick לכפתורים (אם לא קושרת ב-Inspector)
         if (nextButton) nextButton.onClick.AddListener(Next);
         if (prevButton) prevButton.onClick.AddListener(Previous);
-
+        if (PlayPauseButton) PlayPauseButton.onClick.AddListener(TogglePlayPause);
+        if (ForwardButton) ForwardButton.onClick.AddListener(SkipForward);
+        if (BackwardButton) BackwardButton.onClick.AddListener(SkipBackward);
         UpdateInstruction();
         UpdateButtons();
     }
@@ -59,7 +69,36 @@ public class InstructionManager : MonoBehaviour
             UpdateButtons();
         }
     }
+    public void TogglePlayPause()
+    {
+        // הגנה מפני קריסה אם הנגן ריק
+        if (videoPlayer == null) return;
 
+        if (videoPlayer.isPlaying)
+        {
+            videoPlayer.Pause(); // אם מנגן -> תעצור
+        }
+        else
+        {
+            videoPlayer.Play(); // אם עומד -> תנגן
+        }
+    }
+    public void SkipForward()
+    {
+        // בדיקת בטיחות
+        if (videoPlayer == null) return;
+
+        // הוספת זמן לנגן
+        videoPlayer.time += skipTime;
+    }
+    public void SkipBackward()
+    {
+        // בדיקת בטיחות
+        if (videoPlayer == null) return;
+
+        // הוספת זמן לנגן
+        videoPlayer.time -= skipTime;
+    }
     void UpdateInstruction()
     {
         if (currentIndex >= instructions.Length) return;
@@ -87,7 +126,7 @@ public class InstructionManager : MonoBehaviour
         {
             videoPlayer.clip = instr.video;
             videoPlayer.gameObject.SetActive(true);
-            videoPlayer.isLooping = true; // הוסף את זה – מפעיל לופ
+            videoPlayer.isLooping = true; // מופעל בלופ
             videoPlayer.Play();
             // הוסף: קשר RawImage לפלט הווידאו
             if (imageUI && videoPlayer.targetTexture != null)

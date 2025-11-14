@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{364BEB17-B5D2-9128-9D41-6937BA2B1C30}|Assembly-CSharp.csproj|c:\\users\\tsaba\\labtemplate01\\assets\\scripts\\instructionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364BEB17-B5D2-9128-9D41-6937BA2B1C30}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instructionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364BEB17-B5D2-9128-9D41-6937BA2B1C30}|Assembly-CSharp.csproj|c:\\users\\tsaba\\labtemplate01\\assets\\scripts\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364BEB17-B5D2-9128-9D41-6937BA2B1C30}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InstructionManager.cs",
               "ToolTip": "C:\\Users\\tsaba\\LabTemplate01\\Assets\\Scripts\\InstructionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InstructionManager.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAQwFsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T03:30:09.893Z",
+              "WhenOpened": "2025-11-14T03:52:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\tsaba\\LabTemplate01\\Assets\\Scripts\\VideoController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VideoController.cs",
+              "ToolTip": "C:\\Users\\tsaba\\LabTemplate01\\Assets\\Scripts\\VideoController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VideoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T12:17:31.579Z",
               "EditorCaption": ""
             }
           ]
